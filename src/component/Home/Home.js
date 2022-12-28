@@ -11,7 +11,7 @@ const Home = () => {
 <form onSubmit={(e) => createTask(e)} className='w-96 justify-center align-middle m-auto border rounded-md border-md p-6 mt-10'>
   <div class="mb-6">
   
-    <input type="text" id="title" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value={title} onChange={(e) =} placeholder="Write your Task Title" required/>
+    <input type="text" id="title" class="bg-gray-50 border border-gray-300 text-gray-900 text-sm rounded-lg focus:ring-blue-500 focus:border-blue-500 block w-full p-2.5 dark:bg-gray-700 dark:border-gray-600 dark:placeholder-gray-400 dark:text-white dark:focus:ring-blue-500 dark:focus:border-blue-500" value={title}  placeholder="Write your Task Title" required/>
    
   </div>
   <div class="mb-6">
