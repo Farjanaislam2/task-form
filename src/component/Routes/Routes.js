@@ -4,16 +4,13 @@ import Main from "../Layout/Main"
 import Home from './../Home/Home';
 import Login from './../Login';
 import MyTask from './../MyTask/MyTask';
+import TaskList from './../MyTask/TaskList';
 
 const router = createBrowserRouter([
     {
         path: '/',
         element: <Main></Main>,
         children: [
-            {
-                path: '/',
-                element: <Home></Home>
-            },
             {
                 path: '/login',
                 element: <Login></Login>
@@ -23,9 +20,10 @@ const router = createBrowserRouter([
                 element:<AddTask></AddTask>
             },
             {
-                path: '/myTask',
+                path: '/',
                 element:<MyTask></MyTask>
             },
+          
         ]
     }
 ])
